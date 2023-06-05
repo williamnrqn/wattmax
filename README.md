@@ -2,7 +2,7 @@
 
 ## Description
 
-Is a website of a company *Watt Max* that sells motos and scooters electric.
+Is a website of a company `Watt Max` that sells motos and scooters electric.
 
 ## link
 
