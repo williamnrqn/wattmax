@@ -22,7 +22,7 @@ Is a website of a company **Watt Max** that sells motos and scooters electric.
 
 ## license
 
-MIT License see [LICENSE](https://github.com/williamnrqn/wattmax/LICENSE)
+MIT License see [LICENSE](https://github.com/williamnrqn/wattmax/blob/main/LICENSE)
 
 ## Author
 
