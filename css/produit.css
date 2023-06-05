@@ -1,0 +1,213 @@
+@media (min-width :1151px) {
+    section#model {
+        display:flex;
+        background-color: black;
+        width: 80%;
+        padding: 40px;
+        border-radius: 20px;
+        margin: 20px;
+        height: 510px;
+    }
+
+    section#model div#text {
+        width:400px;
+    }
+
+    section#model div#text div#liens-ex div {
+        background-color: var(--color-title);
+        border-radius: 5px;
+    }
+
+    div#picture {
+        display: flex;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    div#picture img {
+        max-width:100%;
+        object-fit:cover;
+    }
+}
+
+@media (min-width: 1000px) and (max-width :1150px) {
+    section#model {
+        display:flex;
+        background-color: black;
+        padding: 40px;
+        margin: 20px 0;
+        height: 510px;
+    }
+
+    section#model div#text {
+        width:400px;
+    }
+
+    div#picture {
+        display: flex;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    div#picture img {
+        max-width:100%;
+        object-fit:cover;
+    }
+}
+
+@media (min-width: 1000px) {
+    h2#titlemodil {
+        display: none;
+    }
+
+    h2#title {
+        display: block;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 999px) {
+    section#model {
+        display: flex;
+        background-color: black;
+        padding: 40px;
+        margin: 20px 0;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    section#model div#text {
+        width:400px;
+    }
+
+    div#picture {
+        display: flex;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    div#picture img {
+        max-width:100%;
+        object-fit:cover;
+    }
+
+    h2#titlemodil {
+        display: block;
+    }
+
+    h2#title {
+        display: none;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+h2 {
+    color: white;
+    font-family: sans-serif;
+}
+
+span {
+    color:white;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#color span {
+    margin-left: 7px;
+}
+
+div#color {
+    display: flex;
+    margin: 5px;
+    align-items: flex-end;
+}
+
+#Noir {
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border: 2px solid white;
+}
+
+#Gris {
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+    background-color: gray;
+    border: 2px solid white;
+}
+
+#Rouge {
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border: 2px solid white;
+}
+
+#Jaune {
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+    background-color: yellow;
+    border: 2px solid white;
+}
+
+#Bleu {
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    border: 2px solid white;
+}
+
+#Vert {
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border: 2px solid white;
+}
+
+#Gris_Tempête {
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+    background-color: #989997;
+    border: 2px solid white;
+}
+
+#Olive {
+    border-radius: 15px;
+    width:15px;
+    height:15px;
+    background-color: olive;
+    border: 2px solid white;
+}
+
+#Ducati {
+    border-radius: 15px;
+    width:15px;
+    height:15px;
+    background-color: rgb(218, 52, 52);
+    border: 2px solid white;
+}

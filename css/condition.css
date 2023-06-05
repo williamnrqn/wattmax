@@ -1,0 +1,27 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main section {
+    width: 90%;
+    height: auto;
+    text-align: justify;
+}
+
+main h2 {
+    margin-top: 100px;
+    color: rgb(var(--color-title));
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+main p {
+    font-size: 25px;
+}
+
+main ul > li {
+    font-size: 25px;
+    font-family: sans-serif;
+    color:aliceblue;
+}

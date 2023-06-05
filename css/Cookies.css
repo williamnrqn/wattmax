@@ -1,0 +1,20 @@
+div#CookieDeclarationUserStatusLabel {
+    color:aliceblue;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+section#cookies {
+    display: flex;
+    flex-direction: column;        
+    align-items: center;
+}
+    
+section#cookies > div {
+    width: 80%;
+}
+
+table {
+    color:aliceblue;
+    font-family: sans-serif;
+}

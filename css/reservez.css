@@ -1,0 +1,67 @@
+section#part-1 label {
+    color: white;
+    font-family: sans-serif;
+}
+
+h4 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 1.3em;
+    margin: 30px 0 10px 0;
+}
+
+section#part-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#part-1 form {
+    background-color: black;
+    width: 80%;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+section#part-1 > form > label {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+section#part-1 > form > input {
+    color:white;
+    height: 35px;
+    font-size: 1.2em;
+    margin: 0 10px;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: var(--kf-background-alt);
+    border: solid 2px rgb(187, 187, 187);
+}
+
+section#part-1 > form > input#reserver {
+    background-color: rgb(46, 117,182);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+section#part-1 > form > input#reserver:hover {
+    transition: all 0.3s;
+    background-color: var(--kf-background-alt);
+}
+
+div#model > div {
+    display: flex;
+    flex-direction: column;
+}
+
+div#model > div > label {
+    margin: 5px 10px;
+}
