@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css" media="all">
     <link rel="stylesheet" href="css/Cookies.css">
-    <title>Watt Max | beta 0.0.1</title>
+    <title>Watt Max</title>
     <script src="js/main.js"></script>
+    <link rel="shortcut icon" href="https://wattmax.fr/img/6 - Sigle WM Blanc simple (1).png" type="image/x-icon">
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="881d0574-63ef-48b4-bae4-4bf6dd273e9c" data-blockingmode="auto" type="text/javascript"></script>
 </head>
 <body>

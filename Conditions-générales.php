@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css" media="all">
     <link rel="stylesheet" href="css/condition.css">
-    <title>WATT MAX | beta 0.0.1</title>
+    <title>Watt Max</title>
+    <link rel="shortcut icon" href="https://wattmax.fr/img/6 - Sigle WM Blanc simple (1).png" type="image/x-icon">
     <script src="js/main.js"></script>
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="881d0574-63ef-48b4-bae4-4bf6dd273e9c" data-blockingmode="auto" type="text/javascript"></script>
 </head>
@@ -30,7 +31,6 @@
                 <p>Le Site a pour objet de présenter les produits et services proposés par la société WATTMAX, spécialisée dans la vente de motos et scooters électriques, ainsi que de fournir des informations et des conseils sur ces produits et services.</p>
                 <h2><li>Accès et utilisation du site web</li></h2>
                 <ul type=disc>
-                    <!-- <li>L'accès à WATTMAX.FR est réservé aux personnes majeures et capables juridiquement.</li> -->
                     <li>WATTMAX.FR est accessible gratuitement en tout lieu à tout Utilisateur disposant d'un accès à Internet.</li>
                     <li>L'Utilisateur est seul responsable des coûts afférents à l'accès au site web et de son équipement informatique.</li>
                     <li>L'Utilisateur s'engage à n'utiliser le site web que pour un usage strictement personnel et à ne pas diffuser des contenus contraires à l'ordre public ou aux bonnes mœurs.</li>
