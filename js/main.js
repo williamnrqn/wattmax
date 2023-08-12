@@ -16,3 +16,5 @@ function changeImage() {
         image.src = "https://wattmax.fr/img/23.02 - Logo Typo blanc.png";
     }
 }
+
+window.addEventListener('resize', changeImage);
