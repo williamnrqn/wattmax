@@ -11,7 +11,7 @@ function changeImage() {
     const screenWidth = window.innerWidth;
 
     if (screenWidth <= 710) {
-        image.src = "https://wattmax.fr/img/img/1_-_Logo_WM_Blanc_portrait__Cercle_bleu__-_Fond_noir-removebg-preview.png";
+        image.src = "https://wattmax.fr/img/1_-_Logo_WM_Blanc_portrait__Cercle_bleu__-_Fond_noir-removebg-preview.png";
     } else {
         image.src = "https://wattmax.fr/img/23.02 - Logo Typo blanc.png";
     }
