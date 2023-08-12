@@ -17,4 +17,5 @@ function changeImage() {
     }
 }
 
+changeImage();
 window.addEventListener('resize', changeImage);
