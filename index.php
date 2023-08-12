@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="css/index.css">
     <title>Watt Max | Accueil</title>
     <link rel="shortcut icon" href="https://wattmax.fr/img/6 - Sigle WM Blanc simple (1).png" type="image/x-icon">
-    <script src="js/main.js"></script>
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="881d0574-63ef-48b4-bae4-4bf6dd273e9c" data-blockingmode="auto" type="text/javascript"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
     <?php include "src/header.php"?>
@@ -20,6 +20,21 @@
         <section class="first-part1"></section>
         <section class="first-part2">
             <img id="img-principale" src="https://wattmax.fr/img/23.02 - Logo Typo blanc.png" alt="logo wattmax">
+            <script>
+                function changeImage() {
+                    const image = document.getElementById('img-principale');
+                    const screenWidth = window.innerWidth;
+
+                    if (screenWidth <= 710) {
+                        image.src = "https://wattmax.fr/img/1_-_Logo_WM_Blanc_portrait__Cercle_bleu__-_Fond_noir-removebg-preview.png";
+                    } else {
+                        image.src = "https://wattmax.fr/img/23.02 - Logo Typo blanc.png";
+                    }
+                }
+
+                changeImage();
+                window.addEventListener('resize', changeImage);
+            </script>
         </section>
         <section class="part-2" style="width: 100%;height: auto;">
             <div style="height: 30px;"></div>
