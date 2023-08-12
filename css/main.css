@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+@font-face {
+    font-family: "Geometos";
+    src: url('../font/Geometos.ttf') format('truetype');
+}
+
+html, section, h1, h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+p, a, label {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -31,12 +53,10 @@ nav li {
 
 p {
     color: aliceblue;
-    font-family: sans-serif;
 }
 
 label {
     color: aliceblue;
-    font-family: sans-serif;
     font-size: 20px;
     margin: 20px 0;
 }
@@ -130,7 +150,6 @@ header div.img img {
 
 @media (max-width: 1030px) {
     h1 {
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 46px;
         color: rgb(var(--color-title));
         text-align: center;
@@ -139,7 +158,6 @@ header div.img img {
 
 @media (min-width: 1031px) {
     h1 {
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 56px;
         color: rgb(var(--color-title));
         text-align: center;
@@ -193,7 +211,6 @@ footer.top {
     justify-content: center;
     flex-wrap: wrap;
     color:aliceblue;
-    font-family: sans-serif;
 }
 
 footer.top .links {
@@ -211,7 +228,6 @@ footer.top .links > div {
 footer.bottom {
     border-top: solid 2px aliceblue;
     color: aliceblue;
-    font-family: sans-serif;
 }
 
 footer.bottom .legal {

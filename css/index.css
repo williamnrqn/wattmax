@@ -44,7 +44,6 @@ section.first-part1 {
         background: -webkit-linear-gradient(#74a0d3, rgb(63 111 173));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 }
 
@@ -103,7 +102,6 @@ section.first-part1 {
         background: -webkit-linear-gradient(#74a0d3, rgb(63 111 173));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     
     section.part-2 div.contener:hover p {
@@ -133,7 +131,6 @@ section.first-part1 {
         background: -webkit-linear-gradient(#74a0d3, rgb(63 111 173));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
     section.part-2 div.conteners {
@@ -231,7 +228,6 @@ footer {
         background: -webkit-linear-gradient(#74a0d3, rgb(63 111 173));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 }
 
@@ -330,7 +326,6 @@ div.local div.info div.text h3 {
     background: -webkit-linear-gradient(#74a0d3, rgb(63 111 173));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 div.local div.info div.text p {
@@ -389,7 +384,6 @@ div.local div.info div.text a {
     }
     
     section.part-7 div div.img div h2 {
-        font-family: sans-serif;
         font-size: 30px;
         margin-bottom: 150px;
         margin-right: 400px;
@@ -456,7 +450,6 @@ div.local div.info div.text a {
         }
         
         section.part-7 div div.img div h2 {
-            font-family: sans-serif;
             font-size: 30px;
             height: 100%;
             margin-bottom: 100px;
@@ -475,7 +468,6 @@ div.local div.info div.text a {
         }
         
         section.part-7 div div.img div h2 {
-            font-family: sans-serif;
             font-size: 28px;
             height: 100%;
             margin-bottom: 100px;
@@ -527,7 +519,6 @@ input[type=radio] {
         background: -webkit-linear-gradient(#688db8, rgb(22, 93, 185));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
     label h3 {
@@ -595,7 +586,6 @@ input[type=radio] {
         background: -webkit-linear-gradient(#688db8, rgb(22, 93, 185));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     
     div.cards > label > div {
@@ -672,7 +662,6 @@ input[type=radio] {
             background: -webkit-linear-gradient(#688db8, rgb(22, 93, 185));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
     }
 
@@ -840,21 +829,18 @@ input[type=radio] {
         text-align: center;
         color: white;
         font-size: 50px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     
     section.part-8 div.box div.text a {
         text-align: center;
         color: white;
         font-size: 20px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     
     section.part-8 div.box div.text p {
         text-align: center;
         color: white;
         font-size: 20px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     
     section.part-8 div.box div.text p:nth-child(3) {
@@ -922,21 +908,18 @@ section.part-8 {
         text-align: center;
         color: white;
         font-size: 50px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     
     section.part-8 div.box div.text a {
         text-align: center;
         color: white;
         font-size: 20px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     
     section.part-8 div.box div.text p {
         text-align: center;
         color: white;
         font-size: 20px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     
     section.part-8 div.box div.form {
@@ -1017,6 +1000,5 @@ div.form form input#Envoyer:hover {
         background: -webkit-linear-gradient(#688db8, rgb(22, 93, 185));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 }
