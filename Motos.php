@@ -64,7 +64,7 @@ try {
                     <p>Prix de base : <?=$produit['Prix_de_base']?>€</p>
                     <p>Bonus éco :&nbsp; &nbsp; &nbsp; <?=$produit['Bonus_eco']?>€</p>
                     <p>Prix :&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<?=$produit['Prix']?>€</p>
-                    <a id="liens-ex" href=""><div style="background-color: rgb(var(--color-title));border-radius: 20px;height: 30px;display: flex;align-items: center;justify-content: center;"><p>En savoir +</p></div></a>
+                    <a id="liens-ex" href="<?=$produit['lien']?>"><div style="background-color: rgb(var(--color-title));border-radius: 20px;height: 30px;display: flex;align-items: center;justify-content: center;"><p>En savoir +</p></div></a>
                 </div>  
                 <div id="picture">
                     <img src="https://wattmax.fr/img/moto/<?=$produit['photo']?>" alt="<?=$produit['name']?>">
