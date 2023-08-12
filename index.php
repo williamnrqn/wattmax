@@ -19,7 +19,7 @@
     <main>
         <section class="first-part1"></section>
         <section class="first-part2">
-            <img src="https://wattmax.fr/img/23.02 - Logo Typo blanc.png" alt="logo wattmax">
+            <img id="img-principale" src="https://wattmax.fr/img/23.02 - Logo Typo blanc.png" alt="logo wattmax">
         </section>
         <section class="part-2" style="width: 100%;height: auto;">
             <div style="height: 30px;"></div>
