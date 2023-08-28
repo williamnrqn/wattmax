@@ -1,0 +1,6 @@
+RewriteEngine on
+  
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
+RewriteCond %{HTTP_HOST} ^wattmax\.fr\.dbvz3741\.odns\.fr$
+RewriteRule ^/?$ "https\:\/\/wattmax\.fr\/" [R=301,L]

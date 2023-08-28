@@ -49,8 +49,8 @@
                             SUPER SOCO - TC Max Full Black
                         </label>
                         <label>
-                            <input type="radio" name="model" id="" value="CAOFEN">
-                            CAOFEN
+                            <input type="radio" name="model" id="" value="CAOFEN - F80">
+                            CAOFEN - F80
                         </label>
                     </div>
                 </div>
@@ -64,6 +64,14 @@
                         <label>
                             <input type="radio" name="model" id="" value="E-BROH - Spuma Li 3 K">
                             E-BROH - Spuma Li 3 K
+                        </label>
+                        <label>
+                            <input type="radio" name="model" id="" value="SEGWAY - E300SE">
+                            SEGWAY - E300SE
+                        </label>
+                        <label>
+                            <input type="radio" name="model" id="" value="HORWIN - EK3">
+                            HORWIN - EK3
                         </label>
                     </div>
                 </div>

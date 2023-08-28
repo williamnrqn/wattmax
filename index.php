@@ -154,7 +154,7 @@
                             <br>
                             <a href="mailto:contact@wattmax.fr">contact@wattmax.fr</a>
                         </p>
-                        <p>Du mardi au samedi
+                        <p>Du lundi au samedi
                             <br>De 10h à 19h
                         </p>
                     </div>
