@@ -30,16 +30,16 @@
         object-fit:cover;
     }
 
-    section.model {
+    section#model {
         transform: translateX(200%);
         transition: transform 0.4s ease;
     }
 
-    section.model:nth-of-type(even) {
+    section#model:nth-of-type(even) {
         transform: translateX(-200%);
     }
 
-    section.model.show {
+    section#model.show {
         transform: translateX(0);
     }
 }
