@@ -32,7 +32,7 @@ try {
         $q = $db->query("SELECT * FROM Moto");
         while ($produit = $q->fetch()) {
             ?>
-            <section id="model">
+            <section id="model" class="model">
                 <div id="text">
                     <h2 id="title"><?=$produit['name']?></h2>
                     <p>Equivalent : <?=$produit['Equivalent']?></p>
