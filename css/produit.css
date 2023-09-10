@@ -37,9 +37,6 @@ section.model {
     transition: transform 0.4s ease;
 }
 
-section.model:nth-of-type(even) {
-}
-
 section.model.show {
     transform: translateX(0);
 }

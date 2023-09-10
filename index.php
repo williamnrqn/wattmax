@@ -164,6 +164,32 @@
                 </div>
             </div>
         </section>    
+        <div class="separeter"><div></div></div>
+        <link rel="stylesheet" href="index.css">
+
+        <section class="side-scroll section-t">
+        <div class="side-scroll-container container-t">
+            <h1 class="side-scroll-heading">
+            Nos partenaires
+            </h2>
+            <div class="side-scroll-list-wrapper">
+            <ul class="side-scroll-list">
+                <li class="side-scroll-item"><img src="img/marque/Horizontale bleuVmoto soco logos.png" alt="logo V moto"></li>
+                <li class="side-scroll-item"><img src="img/marque/1 - logo fd transparent - frison scooter.png" alt="logo frison"></li>
+                <li class="side-scroll-item"><img src="img/marque/Logo 2 - E-Broh.png" alt="logo E-Broh"></li>
+                <li class="side-scroll-item"><img src="img/marque/Logo Fd noir - FELO.png" alt="logo FELO"></li>
+                <li class="side-scroll-item"><img src="img/marque/Logo Fond transparent - LVNENG.webp" alt="logo LVNENG"></li>
+                <li class="side-scroll-item"><img src="img/marque/ray_electric_motors_logo.png" alt="logo RAY"></li>
+                <li class="side-scroll-item"><img src="img/marque/logo_appel-removebg-preview.png" alt="logo frison scooter"></li>
+                <li class="side-scroll-item"><img src="img/marque/segway-logo_horizontal_white.png" alt="logo segway"></li>
+            </ul>
+            </div>
+        </div>
+        </section>
+
+        <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+        <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+        <script src="indej.js"></script>
         <section class="part-7">
             <div class="box">
                 <div class="img">

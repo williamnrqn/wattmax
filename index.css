@@ -1,0 +1,83 @@
+
+ul,
+li {
+list-style: none;
+}
+
+.section-t {
+width: 100%;
+padding-top: 70px;
+}
+.container-t {
+width: 80%;
+max-width: 900px;
+margin: 0 auto;
+}
+
+.heading-t {
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 0.05em;
+}
+
+/* タイトル */
+.pin-spacer {
+    background-color: rgb(27, 23, 23);
+}
+.title {
+padding: 200px 0 20px;
+font-size: 52px;
+text-align: center;
+}
+
+/* 普通のセクション */
+.normal-text {
+font-size: 20px;
+letter-spacing: 0.08em;
+margin-top: 60px;
+}
+
+/* 横スクロールセクション */
+.side-scroll {
+background-color: #1b1717;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.side-scroll-list-wrapper {
+position: relative;
+width: 100%;
+height: 500px;
+}
+
+.side-scroll-list {
+position: absolute;
+top: 60px;
+left: 0;
+display: flex;
+gap: 0 60px;
+}
+
+.side-scroll-item {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 420px;
+height: 300px;
+background-color: #000;
+color: #1b1717;
+font-size: 32px;
+font-weight: 700;
+border-radius: 10px;
+}
+
+.side-scroll-item + .side-scroll-item {
+margin-left: 60px;
+}
+
+img {
+width: 300px;
+object-fit: cover;
+
+}
