@@ -32,7 +32,7 @@ try {
         $q = $db->query("SELECT * FROM Scooter");
         while ($produit = $q->fetch()) {
             ?>
-            <section id="model">
+            <section id="model" class="model">
                 <div id="text">
                     <h2 id="title"><?=$produit['name']?></h2>
                     <p>Equivalent : <?=$produit['Equivalent']?></p>
@@ -75,6 +75,25 @@ try {
             }
         ?>
     </main>
+    <script>
+        const boxes = document.querySelectorAll('.model');
+    
+        window.addEventListener('scroll', checkBoxes);
+        checkBoxes();
+    
+        function checkBoxes() {
+            const triggerBottom = window.innerHeight / 5 *4;
+            boxes.forEach((box, idx) => {
+                const boxtop = box.getBoundingClientRect().top;
+                
+                if (boxtop < triggerBottom) {
+                    box.classList.add('show');
+                } else {
+                    box.classList.remove('show');
+                }
+            });
+        }
+    </script>
     <?php include "src/footer.php"?>
 </body>
 </html>

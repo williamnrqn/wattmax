@@ -30,17 +30,18 @@
         object-fit:cover;
     }
 
-    section.model {
-        transform: translateX(-200%);
-        transition: transform 0.4s ease;
-    }
+}
 
-    section.model:nth-of-type(even) {
-    }
+section.model {
+    transform: translateX(-200%);
+    transition: transform 0.4s ease;
+}
 
-    section.model.show {
-        transform: translateX(0);
-    }
+section.model:nth-of-type(even) {
+}
+
+section.model.show {
+    transform: translateX(0);
 }
 
 @media (min-width: 1000px) and (max-width :1150px) {
