@@ -75,25 +75,25 @@ try {
             }
         ?>
     </main>
+    <script>
+        const boxes = document.querySelectorAll('.model');
+    
+        window.addEventListener('scroll', checkBoxes);
+        checkBoxes();
+    
+        function checkBoxes() {
+            const triggerBottom = window.innerHeight / 5 *4;
+            boxes.forEach((box, idx) => {
+                const boxtop = box.getBoundingClientRect().top;
+                
+                if (boxtop < triggerBottom) {
+                    box.classList.add('show');
+                } else {
+                    box.classList.remove('show');
+                }
+            });
+        }
+    </script>
     <?php include "src/footer.php"?>
 </body>
 </html>
-<script>
-    const boxes = document.querySelectorAll('.model');
-
-    window.addEventListener('scroll', checkBoxes);
-    checkBoxes();
-
-    function checkBoxes() {
-        const triggerBottom = window.innerHeight / 5 *4;
-        boxes.forEach((box, idx) => {
-            const boxtop = box.getBoundingClientRect().top;
-            
-            if (boxtop < triggerBottom) {
-                box.classList.add('show');
-            } else {
-                box.classList.remove('show');
-            }
-        });
-    }
-</script>
