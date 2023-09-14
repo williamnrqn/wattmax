@@ -67,7 +67,7 @@ try {
                     <a id="liens-ex" href="<?=$produit['lien']?>"><div style="background-color: rgb(var(--color-title));border-radius: 20px;height: 30px;display: flex;align-items: center;justify-content: center;"><p>En savoir +</p></div></a>
                 </div>  
                 <div id="picture">
-                    <img style='background-image:none' src="https://wattmax.fr/img/moto/<?=$produit['photo']?>" alt="<?=$produit['name']?>">
+                    <img src="https://wattmax.fr/img/moto/<?=$produit['photo']?>" alt="<?=$produit['name']?>">
                 </div>
                 <h2 id="titlemodil"><?=$produit['name']?></h2>
             </section>
