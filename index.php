@@ -175,13 +175,14 @@
             <div class="side-scroll-list-wrapper">
             <ul class="side-scroll-list">
                 <li class="side-scroll-item"><img src="img/marque/Horizontale bleuVmoto soco logos.png" alt="logo V moto"></li>
-                <li class="side-scroll-item"><img src="img/marque/1 - logo fd transparent - frison scooter.png" alt="logo frison"></li>
+                <li class="side-scroll-item"><img src="img/marque/1 - logo fd transparent - frison scooter.png" alt="logo frison scooter"></li>
                 <li class="side-scroll-item"><img src="img/marque/Logo 2 - E-Broh.png" alt="logo E-Broh"></li>
                 <li class="side-scroll-item"><img src="img/marque/Logo Fd noir - FELO.png" alt="logo FELO"></li>
                 <li class="side-scroll-item"><img src="img/marque/Logo Fond transparent - LVNENG.webp" alt="logo LVNENG"></li>
                 <li class="side-scroll-item"><img src="img/marque/ray_electric_motors_logo.png" alt="logo RAY"></li>
-                <li class="side-scroll-item"><img src="img/marque/logo_appel-removebg-preview.png" alt="logo frison scooter"></li>
                 <li class="side-scroll-item"><img src="img/marque/segway-logo_horizontal_white.png" alt="logo segway"></li>
+                <li class="side-scroll-item"><img src="img/marque/horwin.png" alt="logo horwin"></li>
+                <!-- <li class="side-scroll-item"><img src="img/marque/" alt="logo"></li> -->
             </ul>
             </div>
         </div>
