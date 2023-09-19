@@ -9,7 +9,7 @@ section.first-part1 {
     height: 100%;
 }
 
-html::-webkit-scrollbar-button {
+::-webkit-scrollbar-button {
     display: none;
 }
 
