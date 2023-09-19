@@ -181,8 +181,8 @@
                 <li class="side-scroll-item"><img src="img/marque/Logo Fond transparent - LVNENG.webp" alt="logo LVNENG"></li>
                 <li class="side-scroll-item"><img src="img/marque/ray_electric_motors_logo.png" alt="logo RAY"></li>
                 <li class="side-scroll-item"><img src="img/marque/segway-logo_horizontal_white.png" alt="logo segway"></li>
-                <li class="side-scroll-item"><img src="img/marque/horwin.png" alt="logo horwin"></li>
-                <!-- <li class="side-scroll-item"><img src="img/marque/" alt="logo"></li> -->
+                <li class="side-scroll-item"><img src="img/marque/horwin-2.png" alt="logo horwin"></li>
+                <li class="side-scroll-item"><img src="img/marque/tromox-2.png" alt="logo tromox"></li>
             </ul>
             </div>
         </div>
