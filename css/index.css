@@ -9,6 +9,10 @@ section.first-part1 {
     height: 100%;
 }
 
+html::-webkit-scrollbar-button {
+    display: none;
+}
+
 @media (max-width: 710px) {
     section.first-part1 {
         height: 100vh;
