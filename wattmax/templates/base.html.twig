@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block title %}Watt Max{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+        {% block javascripts %}{% endblock %}
+        <script src="{{ asset('js/main.js') }}"></script>
+        <link rel="shortcut icon" href="https://wattmax.fr/img/6 - Sigle WM Blanc simple (1).png" type="image/x-icon">
+        <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="881d0574-63ef-48b4-bae4-4bf6dd273e9c" data-blockingmode="auto" type="text/javascript"></script>
+    </head>
+    <body>
+        <header>
+            <div class="img"><a href="{{ path('app_home') }}"><img src="https://wattmax.fr/img/6_-_Sigle_WM_Blanc_simple__1_-removebg-preview.png" alt="logo"></a></div>
+            <div class="resa"><a href="{{ path('app_reservez_votre_essai') }}"><p>Réservez votre essai !</p></a></div>
+            <nav class="menu-nav">
+                <ul class="ul-menu-nav">
+                    <li class="btn sp"><a href="{{ path('app_reservez_votre_essai') }}"><p class="nav">Réservez votre essai !</p></a></li>
+                    <li class="btn"><a href="{{ path('app_home') }}"><p class="nav">Accueil</p></a></li>
+                    <li class="btn"><a href="{{ path('app_motos') }}"><p class="nav">Motos</p></a></li>
+                    <li class="btn"><a href="{{ path('app_scooters') }}"><p class="nav">Scooters</p></a></li>
+                    <li class="btn"><a href="{{ path('app_service') }}"><p class="nav">Service</p></a></li>
+                    <li class="btn"><a href="{{ path('app_contact') }}"><p class="nav">Contact</p></a></li>
+                </ul>
+            </nav>
+            <div id="ham" class="ham">
+                <div id="de"></div>
+                <div id="de"></div>
+                <div id="de"></div>
+            </div>
+        </header>
+        <script>
+            const menuHamburger = document.querySelector(".ham");
+            const navLinks = document.querySelector(".menu-nav");
+            const resa = document.querySelector(".resa");
+            const li = document.querySelector(".ul-menu-nav");
+
+            menuHamburger.addEventListener("click", () => {
+                navLinks.classList.toggle('mobile-menu');
+                menuHamburger.classList.toggle('mobile-menu');
+            });
+        </script>
+        <div style="height: 80px; width: 100%; background-color: black;"></div>
+        {% block body %}{% endblock %}
+        <footer class="top">
+            <img src="https://wattmax.fr/img/23.02 - Logo Typo blanc.png" alt="logo wattmax">
+            <div class="links">
+                <div>
+                    <h2>Navigation</h2>
+                    <a href="{{ path('app_home') }}">Accueil</a>
+                    <a href="{{ path('app_reservez_votre_essai') }}">Reservez votre essai</a>
+                    <a href="{{ path('app_motos') }}">Motos</a>
+                    <a href="{{ path('app_scooters') }}">Scooters</a>
+                    <a href="{{ path('app_service') }}">Service</a>
+                    <a href="{{ path('app_contact') }}">Contact</a>
+                </div>
+                <div>
+                    <h2>Pages légales</h2>
+                    <a href="{{ path('app_mentions_legales') }}">Mentions légales</a>
+                    <a href="{{ path('app_conditions_generales') }}">Conditions générales</a>
+                    <a href="{{ path('app_cookies') }}">Cookies</a>
+                </div>
+            </div>
+        </footer>
+        <footer class="bottom">
+            <div class="legal">
+                <span> © 2023 Watt Max, Tous droits réservés.</span>
+            </div>
+            <div class="links">
+                <a class="fa-brands" href=""></a>
+                <a class="fa-brands" href=""></a>
+                <a class="fa-brands" href=""></a>
+                <a class="fa-brands" href=""></a>
+            </div>
+        </footer>
+    </body>
+</html>

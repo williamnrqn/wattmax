@@ -1,0 +1,114 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Log in!{% endblock %}
+
+{% block body %}
+<style>
+    div.alert-danger {
+        background-color: #ed1c0d;
+        color: white;
+        font-weight: bold;
+    }
+    div.alert-attention {
+        background-color: #f5a623;
+        font-weight: bold;
+        color: black;
+    }
+    div.alert {
+        position: fixed;
+        max-width: 300px;
+        min-width: 200px;
+        text-align: center;
+        padding: 15px 50px;
+        right: 0;
+        border-radius: 10px;
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: var(--kf-background);
+        margin-bottom: 200px;
+    }
+    form > div#form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: black;
+        width: 400px;
+        height: 520px;
+        border-radius: 20px;
+    }
+    .form-control {
+        color: white;
+        height: 35px;
+        font-size: 1.2em;
+        margin: 0 10px;
+        border-radius: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: var(--kf-background-alt);
+        border: solid 2px rgb(187, 187, 187);
+        width: 300px;
+    }
+    button {
+        cursor: pointer;
+        color: white;
+        height: 35px;
+        font-size: 1.2em;
+        margin: 0 10px;
+        border-radius: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: var(--kf-background-alt);
+        border: solid 2px rgb(187, 187, 187);
+        width: 300px;
+        background-color: rgb(46, 117,182);
+        margin-top: 30px;
+        margin-bottom: 10px;
+        transition: all 0.3s;
+        margin-top: 30%;
+    }
+    button:hover {
+        transition: all 0.3s;
+        background-color: var(--kf-background-alt);
+    }
+    label.pass {
+        margin-top: 15%;
+    }
+</style>
+<main>
+    <form method="post">
+    {% if error %}
+        <div class="alert alert-danger">
+            {{ error }}
+        </div>
+    {% endif %}
+
+    {% if app.user %}
+        <div class="alert alert-attention">
+            tu est déja connecté avec le compte {{ app.user.userIdentifier }}, <a href="{{ path('app_logout') }}"><br>Se Déconnecter</a>
+        </div>
+    {% endif %}
+            <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+        <div id="form">
+            <label for="inputEmail">Email</label>
+            <input type="email" value="{{ last_username }}" name="email" id="inputEmail" class="form-control" autocomplete="email" required autofocus>
+            <label class="pass" for="inputPassword">Password</label>
+            <input type="password" name="password" id="inputPassword" class="form-control" autocomplete="current-password" required>
+
+            <input type="hidden" name="_csrf_token"
+                value="{{ csrf_token('authenticate') }}"
+            >
+
+            <button class="btn btn-lg btn-primary" type="submit">
+                Sign in
+            </button>
+        </div>
+    </form>
+</main>
+{% endblock %}

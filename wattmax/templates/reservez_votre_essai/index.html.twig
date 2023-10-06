@@ -1,0 +1,98 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Réservez Votre Essai | Watt Max{% endblock %}
+{% block stylesheets %}<link rel="stylesheet" href="{{ asset('css/reservez.css') }}">{% endblock %}
+{% block body %}
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        div.alert-danger {
+            position: fixed;
+            max-width: 300px;
+            min-width: 200px;
+            text-align: center;
+            background-color: #ed1c0d;
+            color: white;
+            padding: 15px 50px;
+            right: 0;
+            border-radius: 10px;
+            margin-right: 50px;
+            margin-top: 20px;
+        }
+    </style>
+    {% if error %}
+    <div class="alert alert-danger">
+        {{ error }}
+    </div>
+    <script>
+        setTimeout(function() {
+            $('div.alert').fadeOut('slow');
+        }, 3000);
+    </script>
+    {% endif %}
+    <main>
+        <section id="part-1">
+            <h1>Demande d'essai</h1>
+            <form action="{{ path('app_form_reservez_votre_essai') }}" method="post">
+                <label for="lastname">
+                    Nom
+                    <span style="color:red;">*</span>
+                </label>
+                <input type="text" name="lastname" id="lastname" required>
+                <label for="firstname">
+                    Prénom
+                    <span style="color:red;">*</span>
+                </label>
+                <input type="text" name="firstname" id="firstname" required>
+                <label for="email">
+                    E-mail
+                    <span style="color: red;">*</span>
+                </label>
+                <input type="email" name="email" id="email" required>
+                <label for="tel">
+                    Téléphone
+                    <span style="color:red;">*</span>
+                </label>
+                <input type="tel" name="tel" id="tel" pattern="(0|\+33 *)[1-9]( *[0-9]{2}){4}" required>
+                <div id="model">
+                    <h4>Motos</h4>
+                    <div>
+                        <label>
+                            <input type="radio" name="model" id="" value="SUPER SOCO - TS Street Hunter">
+                            SUPER SOCO - TS Street Hunter
+                        </label>
+                        <label>
+                            <input type="radio" name="model" id="" value="SUPER SOCO - TC Max Full Black">
+                            SUPER SOCO - TC Max Full Black
+                        </label>
+                        <label>
+                            <input type="radio" name="model" id="" value="CAOFEN - F80">
+                            CAOFEN - F80
+                        </label>
+                    </div>
+                </div>
+                <div id="model">
+                    <h4>Scooters</h4>
+                    <div>
+                        <label>
+                            <input type="radio" name="model" id="" value="SUPER SOCO - CPX-2">
+                            SUPER SOCO - CPX-2
+                        </label>
+                        <label>
+                            <input type="radio" name="model" id="" value="E-BROH - Spuma Li 3 K">
+                            E-BROH - Spuma Li 3 K
+                        </label>
+                        <label>
+                            <input type="radio" name="model" id="" value="SEGWAY - E300SE">
+                            SEGWAY - E300SE
+                        </label>
+                        <label>
+                            <input type="radio" name="model" id="" value="HORWIN - EK3">
+                            HORWIN - EK3
+                        </label>
+                    </div>
+                </div>
+                <input type="submit" value="Réserver" id="reserver" name="reserver">
+            </form>
+        </section>
+    </main>
+{% endblock %}

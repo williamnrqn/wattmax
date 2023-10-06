@@ -1,0 +1,69 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Service | Watt Max{% endblock %}
+{% block stylesheets %}<link rel="stylesheet" href="{{ asset('css/Service.css') }}" media="all">{% endblock %}
+{% block body %}
+    <main>
+        <h1>Services</h1>
+        <section id="part-1">
+            <img src="https://wattmax.fr/img/f33881_a5b744de735e442c9cdaa81316c1211a_mv2.webp" alt="">
+            <div id="text">
+                <h3 class="title-p">ATELIER</h3>
+                <p>
+                    <b>WATT MAX</b> se charge de tout l'entretien de votre véhicule : de la mise à la route jusqu'à la personnalisation de votre 2 roues avec le "e-style by Watt Max". Notre atelier est ouvert tous les jours du <b>mardi au samedi de 10h à 12h30 et de 13h30 à 19h.</b>
+                </p>
+                <p class="sp">
+                    Pour en savoir plus et prendre rendez-vous, contactez nous par téléphone ou passez nous voir au showroom !
+                </p>
+                <div id="bouton">
+                    <p>
+                        <a href="Contact">
+                            Contact
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="separeter"><div></div></div>
+        <section id="part-2">
+            <div id="cases">
+                <div id="case">
+                    <div id="normal">
+                        <h3 class="title-p">GRAVAGE</h3>
+                    </div>
+                    <div id="hover"></div>
+                </div>
+                <div id="case">
+                    <div id="normal">
+                        <h3 class="title-p">CARTE GRISE</h3>
+                    </div>
+                    <div id="hover"></div>
+                </div>
+                <div id="case">
+                    <div id="normal">
+                        <h3 class="title-p">PLAQUES</h3>
+                    </div>
+                    <div id="hover"></div>
+                </div>
+                <div id="case">
+                    <div id="normal">
+                        <h3 class="title-p">ENTRETIEN SAV</h3>
+                    </div>
+                    <div id="hover"></div>
+                </div>
+                <div id="case">
+                    <div id="normal">
+                        <h3 class="title-p">LOCATION</h3>
+                    </div>
+                    <div id="hover"></div>
+                </div>
+                <div id="case">
+                    <div id="normal">
+                        <h3 class="spe title-p">PERSONNALISATION</h3>
+                    </div>
+                    <div id="hover"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+{% endblock %}

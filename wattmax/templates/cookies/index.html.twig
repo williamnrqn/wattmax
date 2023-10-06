@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Cookies | Watt Max{% endblock %}
+{% block stylesheets %}<link rel="stylesheet" href="{{ asset('css/Cookies.css') }}">{% endblock %}
+{% block body %}
+    <main>
+        <section id="cookies">
+            <h1>Cookies</h1>
+            <div>
+                <script id="CookieDeclaration" src="https://consent.cookiebot.com/881d0574-63ef-48b4-bae4-4bf6dd273e9c/cd.js" type="text/javascript" async></script>
+            </div>
+        </section>
+    </main>
+{% endblock %}

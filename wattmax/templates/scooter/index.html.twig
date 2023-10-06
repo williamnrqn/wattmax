@@ -1,0 +1,63 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Scooters | Watt Max{% endblock %}
+{% block stylesheets %}<link rel="stylesheet" href="{{ asset('css/produit.css') }}">{% endblock %}
+{% block body %}
+    <main>
+        <h1>Scooters</h1>
+        {% for moto in motos %}
+            <section id="model" class="model">
+                <div id='text'>
+                    <h2 id='title'>{{ moto.name }}</h2>
+                    <p>Equivalent : {{ moto.Equivalent }}</p>
+                    <p>Puisance : {{ moto.Puissance }}</p>
+                    <p>Vitesse : {{ moto.Vitesse }}</p>
+                    <p>Permis : {{ moto.Permit }}</p>
+                    <p>Autonomie : {{ moto.Autonomie }}</p>
+                    <p>Batterie amovible : {{ moto.Batterieamovible }}</p>
+                    <p>Coloris disponible :</p>
+                    <div id="colors">
+                    {% for colo in moto.color %}
+                        <div id="color">
+                            {% if colo == "Gris Tempête" %}
+                            <div id="Gris_Tempête"></div>
+                            {% else %}
+                            <div id="{{ colo }}"></div>
+                            {% endif %}
+                            
+                            <span>{{ colo }}</span>
+                        </div>
+                    {% endfor %}
+                    </div>
+                    <p>Prix de base : {{ moto.Prixdebase }}€</p>
+                    <p>Bonus éco :&nbsp; &nbsp; &nbsp; {{ moto.Bonuseco }}€</p>
+                    <p>Prix :&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{{ moto.Prix }}€</p>
+                    <a id='liens-ex' href="{{ moto.lien }}"><div style="background-color: rgb(var(--color-title));border-radius: 20px;height: 30px;display: flex;align-items: center;justify-content: center;"><p>En savoir +</p></div></a>
+                </div>
+                <div id='picture'>
+                    <img src="https://wattmax.fr/img/scooter/{{ moto.photo }}" alt="{{ moto.name }}">
+                </div>
+                <h2 id='titlemodil'>{{ moto.name }}</h2>
+            </section>
+        {% endfor %}
+    </main>
+    <script>
+        const boxes = document.querySelectorAll('.model');
+    
+        window.addEventListener('scroll', checkBoxes);
+        checkBoxes();
+    
+        function checkBoxes() {
+            const triggerBottom = window.innerHeight / 5 *4;
+            boxes.forEach((box, idx) => {
+                const boxtop = box.getBoundingClientRect().top;
+                
+                if (boxtop < triggerBottom) {
+                    box.classList.add('show');
+                } else {
+                    box.classList.remove('show');
+                }
+            });
+        }
+    </script>
+{% endblock %}
