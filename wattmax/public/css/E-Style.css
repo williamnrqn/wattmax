@@ -1,0 +1,63 @@
+h1.first {
+    margin-bottom: 0;
+    margin-right: 180px;
+}
+
+h6 {
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size: 30px;
+    margin: 0px;
+}
+
+h1.last {
+    margin-top: 0;
+    font-size: 36px;
+    margin-left: 180px;
+}
+
+section#part-1 {
+    height: 900px;
+    width: 100%;
+}
+
+section#part-1 > div#core {
+    position: relative;
+}
+
+section#part-1 > div#core > img {
+    position: absolute;
+    left: 10%;
+    object-fit: cover;
+}
+
+section#part-1 > div#core > div#text {
+    margin-top: 150px;
+    position: absolute;
+    z-index: 0;
+    background-color: black;
+    width: 550px;
+    padding: 60px;
+    border-radius: 20px;
+    right: 10%;
+}
+
+section#part-1 > div#core > div#text h6 {
+    padding:  10px 0;
+    color: whitesmoke;
+}
+
+section#part-1 > div#core > div#text p {
+    color:whitesmoke;
+    padding-left: 20px;
+}
+
+section#part-1 h3.title-p {
+    margin-top: 0;
+    font-size: 36px;
+    background: -webkit-linear-gradient(#688db8, rgb(22, 93, 185));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+

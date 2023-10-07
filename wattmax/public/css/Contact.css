@@ -1,0 +1,349 @@
+@media (max-width: 640px) {
+    section#part-1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
+    section#part-1 > div {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section#part-1 div#text {
+        width: calc(100% - 40px);
+        text-align: center;
+        background-color: rgb(31,78,121);
+        padding: 20px 20px 20px 20px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    section#part-1 div#text a {
+        color: aliceblue;
+    }
+
+    section#part-1 div#text > p:nth-child(1) {
+        font-size: 31px;
+        width: 100%;
+    }
+
+    section#part-1 div#text > p {
+        font-size: 25px;
+    }
+
+    div#picture {
+        background-image: url("https://wattmax.fr/img/f33881_df0453d75e0540d993054ddb7e236edd_mv2.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 40vh;
+    }
+}
+
+@media (min-width :641px) and (max-width :1200px) {
+    section#part-1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
+    section#part-1 > div {
+        margin-top: 50px;
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section#part-1 div#text {
+        width: calc(100% - 40px);
+        text-align: center;
+        background-color: rgb(31,78,121);
+        border-radius: 20px 20px 0 0;
+        padding: 20px 20px 20px 20px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    section#part-1 div#text a {
+        color: aliceblue;
+    }
+
+    section#part-1 div#text > p:nth-child(1) {
+        font-size: 31px;
+        width: 100%;
+    }
+
+    section#part-1 div#text > p {
+        font-size: 25px;
+    }
+
+
+    div#picture {
+        border-radius: 0 0 20px 20px;
+        background-image: url("https://wattmax.fr/img/f33881_df0453d75e0540d993054ddb7e236edd_mv2.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 40vh;
+    }
+}
+
+@media (min-width :1201px) {
+    section#part-1 {
+        display: flex;
+        justify-content: center;
+        height: 80vh;
+
+    }
+
+    section#part-1 > div {
+        margin-top: 50px;
+        display: flex;
+        width: 80%;
+        height: 60vh;
+        flex-wrap: wrap;
+    }
+
+    section#part-1 div#text {
+        width: 35%;
+        text-align: center;
+        background-color: rgb(31,78,121);
+        border-radius: 20px 0 0 20px;
+        padding: 20px 0 20px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    section#part-1 div#text a {
+        color: aliceblue;
+    }
+
+    section#part-1 div#text > p:nth-child(1) {
+        font-size: 31px;
+    }
+
+    section#part-1 div#text > p {
+        font-size: 25px;
+    }
+
+
+    div#picture {
+        border-radius: 0 20px 20px 0;
+        background-image: url("https://wattmax.fr/img/f33881_df0453d75e0540d993054ddb7e236edd_mv2.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 60%;
+        min-width: 590px;
+        height: 60vh;
+    }
+}
+
+@media (max-width: 750px) {
+    section.part-8 {
+        height: auto;
+        width: 100%;
+    }
+
+    section.part-8 div.box {
+        margin-top: 50px;
+        width: 100%;
+        height: auto;
+        background-color: #000;
+    }
+
+    section.part-8 div.box div.text {
+        width: 100%;
+        background-color: rgb(31,78,121);
+    }
+    
+    section.part-8 div.box div.text h2 {
+        padding-top: 20px;
+        margin-top: 0;
+        margin-bottom: 25px;
+        text-align: center;
+        color: white;
+        font-size: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    section.part-8 div.box div.text a {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    section.part-8 div.box div.text p:nth-child(4) {
+        padding-bottom:  20px;
+        margin-bottom: 20px;
+    }
+
+    section.part-8 div.box div.text p:nth-child(1) {
+        padding-top:  20px;
+        margin-top: 0;
+    }
+
+    section.part-8 div.box div.text p {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    section.part-8 div.box div.form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    
+    section.part-8 div.box div.form form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 1640px) {
+    section.part-8 {
+        height: 600px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1641px) {
+    section.part-8 {
+        height: 100vh;
+        background-color: transparent;
+    }
+}
+
+section.part-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 751px) {
+    section.part-8 div.box {
+        width: 1100px;
+        height: 65%;
+        background-color: #000;
+        display: flex;
+        border-radius: 20px;
+        margin: 0 50px;
+    }
+
+    section.part-8 div.box div.text {
+        width: 33%;
+        background-color: rgb(31,78,121);
+        border-radius: 20px 0 0 20px;
+    }
+    
+    section.part-8 div.box div.text h2 {
+        text-align: center;
+        color: white;
+        font-size: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    section.part-8 div.box div.text a {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    section.part-8 div.box div.text p {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    section.part-8 div.box div.form {
+        width: 67%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    section.part-8 div.box div.form form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+
+
+#casetext {
+    width: 100%;
+}
+
+#casetext input {
+    font-size: 16px;
+    width: 100%;
+    height: 25px;
+}
+
+div#name div:nth-child(1) {
+    margin-right: 30px;
+}
+
+#casetext textarea {
+    font-size: 16px;
+    width: 100%;
+    height: 80px;
+    resize: none;
+}
+
+section.part-8 div.box div.form form div#email {
+    width: 90%;
+    margin-top: 20px;
+}
+
+section.part-8 div.box div.form form div#name {
+    display: flex;
+    width: 90%;
+}
+
+section.part-8 div.box div.form form div#message {
+    margin-top: 20px;
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+div.form form input#Envoyer {
+    color:white;
+    cursor:pointer;
+    width: 90%;
+    height: 30px;
+    background-color: rgb(38, 94, 139);
+    border: 0;
+    font-size: 16px;
+    transition: all 0.3s;
+    margin-left: 5px;    
+}
+
+div.form form input#Envoyer:hover {
+    background-color: #161617;
+    transition: all 0.3s ;
+}

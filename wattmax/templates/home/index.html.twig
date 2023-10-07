@@ -2,7 +2,7 @@
 
 {% block title %}Accueil | Watt Max{% endblock %}
 {% block stylesheets %}
-<link rel="stylesheet" href="{{ asset('css/index.css') }}">
+<link rel="stylesheet" href="css/index.css">
 {% endblock %}
 
 {% block body %}
@@ -165,7 +165,7 @@
         <div class="side-scroll-list-wrapper">
         <ul class="side-scroll-list">
             {% for key, entity in marques %}
-            <li class="side-scroll-item"><img src="{{ asset(entity.nameimage) }}" alt="logo {{ entity.name }}"></li>
+            <li class="side-scroll-item"><img src="{{ entity.nameimage }}" alt="logo {{ entity.name }}"></li>
             {% endfor %}
             {# <li class="side-scroll-item"><img src="img/marque/1 - logo fd transparent - frison scooter.png" alt="logo frison scooter"></li>
             <li class="side-scroll-item"><img src="img/marque/Logo 2 - E-Broh.png" alt="logo E-Broh"></li>
@@ -182,7 +182,7 @@
 
     <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
     <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
-    <script src="{{ asset('js/indej.js') }}"></script>
+    <script src="js/indej.js"></script>
     <section class="part-7">
         <div class="box">
             <div class="img">
